@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Lab1NewProject.vcxproj, Lab1Q3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  allocate.c
+  ImageReadWriteExample.c
+  qGGMRF.c
+  randlib.c
+C:\Users\Jack\Desktop\ECE637\Lab1\Lab1Q3\Lab1Q4\randlib.c(7,6): warning C4273: 'exit': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(56,48): message : see previous definition of 'exit'
+  solve.c
+  tiff.c
+  Generating Code...
+  Lab1Q4.vcxproj -> C:\Users\Jack\Desktop\ECE637\Lab1\Lab1Q3\x64\Debug\Lab1Q4.exe

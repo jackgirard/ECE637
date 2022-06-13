@@ -1,0 +1,30 @@
+Lab 1 Notes
+created conda environment (using Anaconda Prompt) - not sure why it wasn't working using the standard command prompt?
+once .yml was downloaded and within it as working directory: called conda env create -f environment.yml
+To activate environment: conda activate NAME
+To deactivate environment: conda deactivate
+
+Need to become more familiar with Python syntax
+Where can you access files in Jupyter from? What directory on the computer has those files?
+What if I wanted to upload to GitHub or sync with a different repository on my computer?
+
+Image manipulation is centered around reading in, manipulating, and reading out an image file. Main function for manipulation is
+convolution. Is this convolution the convolution of the individual frequencies or rgb colors from the image? Need to clarify
+
+General note: If code is not understood, write it out line by line and take note as to what each line does. Also, get a blank piece
+of paper and just write down the memory addresses of all variables in the script, and this may help with understanding pointers.
+
+Pointer question:
+consider:
+int x = 5:
+int* y = &x;
+value of x: 5
+value of y: memory address of x
+what happens if you say:
+int* y = x? This is not valid correct?
+What if you say:
+int* y = 10, just assign it to an integer
+Even though a pointer wouldn't be required in this case, is this still valid?? This is what the example is doing
+
+1/18/22
+- walk back through with Thomas the steps for setting up a project in C, particularly, where is Demo.sh executed??

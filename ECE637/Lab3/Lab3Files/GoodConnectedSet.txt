@@ -1,0 +1,31 @@
+	struct pixelList* head, * tail, * tmp;
+	struct pixel c[4];
+	int M, i;
+
+	(*NumConPixels) = 0;
+	head = (struct pixelList*)malloc(sizeof(struct pixelList));
+	head->pixel.m = s.m;
+	head->pixel.n = s.n;
+	head->next = NULL;
+	tail = head;
+
+	while (head != NULL) {
+		if (seg[head->pixel.m][head->pixel.n] != ClassLabel) {
+			seg[head->pixel.m][head->pixel.n] = ClassLabel;
+			(*NumConPixels) += 1;
+			ConnectedNeighbors(head->pixel, T, img, width, height, &M, c);
+			for (i = 0; i < M; i++) {
+				if (seg[c[i].m][c[i].n] != ClassLabel) {
+					tmp = (struct pixelList*)malloc(sizeof(struct pixelList));
+					tmp->pixel.m = c[i].m;
+					tmp->pixel.n = c[i].n;
+					tmp->next = NULL;
+					tail->next = tmp;
+					tail = tmp;
+				}
+			}
+		}
+		tmp = head->next;
+		free(head);
+		head = tmp;
+	}

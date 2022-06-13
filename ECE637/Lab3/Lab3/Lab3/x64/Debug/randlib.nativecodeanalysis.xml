@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\Lab3\</FILEPATH>
+      <FILENAME>randlib.c</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'exit': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdlib.h(56). </DESCRIPTION>
+    <FUNCTION>exit</FUNCTION>
+    <DECORATED>exit</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\Lab3\</FILEPATH>
+      <FILENAME>randlib.c</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>readseed</FUNCTION>
+    <DECORATED>readseed</DECORATED>
+    <FUNCLINE>143</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

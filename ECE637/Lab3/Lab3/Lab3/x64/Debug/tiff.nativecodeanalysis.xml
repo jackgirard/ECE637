@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\Lab3\</FILEPATH>
+      <FILENAME>tiff.c</FILENAME>
+      <LINE>2871</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'ifd-&gt;Fields', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>AllocateNewField</FUNCTION>
+    <DECORATED>AllocateNewField</DECORATED>
+    <FUNCLINE>2868</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\Lab3\</FILEPATH>
+      <FILENAME>tiff.c</FILENAME>
+      <LINE>3019</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>6285</DEFECTCODE>
+    <DESCRIPTION>(&lt;non-zero constant&gt; || &lt;non-zero constant&gt;) is always a non-zero constant.  Did you intend to use the bitwise-and operator?</DESCRIPTION>
+    <FUNCTION>CheckTypeSizes</FUNCTION>
+    <DECORATED>CheckTypeSizes</DECORATED>
+    <FUNCLINE>3016</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\Lab3\</FILEPATH>
+      <FILENAME>tiff.c</FILENAME>
+      <LINE>3018</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>6285</DEFECTCODE>
+    <DESCRIPTION>(&lt;non-zero constant&gt; || &lt;non-zero constant&gt;) is always a non-zero constant.  Did you intend to use the bitwise-and operator?</DESCRIPTION>
+    <FUNCTION>CheckTypeSizes</FUNCTION>
+    <DECORATED>CheckTypeSizes</DECORATED>
+    <FUNCLINE>3016</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\Lab3\</FILEPATH>
+      <FILENAME>tiff.c</FILENAME>
+      <LINE>3151</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>get_img</FUNCTION>
+    <DECORATED>get_img</DECORATED>
+    <FUNCLINE>3142</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

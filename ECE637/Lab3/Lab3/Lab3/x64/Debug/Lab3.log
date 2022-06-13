@@ -1,0 +1,5 @@
+﻿  ConnectedSet.c
+C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\Lab3\ConnectedSet.c(68,22): warning C4133: '=': incompatible types - from 'pixelList *' to 'int *'
+C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\Lab3\ConnectedSet.c(73,19): warning C4133: '=': incompatible types - from 'int *' to 'pixelList *'
+LINK : warning LNK4010: invalid subsystem version number 5.01; default subsystem version assumed
+  Lab3.vcxproj -> C:\Users\Jack\Desktop\ECE637\Lab3\Lab3\x64\Debug\Lab3.exe
